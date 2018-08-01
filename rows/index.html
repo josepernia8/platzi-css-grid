@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CSS Grid Columns</title>
+  <title>CSS Grid Rows</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -11,7 +11,9 @@
     }
     .container {
       display: grid;
-      grid-template-columns: 200px 200px 200px;
+      /* grid-template-columns: 25% 200px 25%; */
+      /* grid-template-rows: 300px 150px; */
+      grid-template: 300px 100px 100px / 500px 200px 100px;
     }
     .item {
       background: lightblue;
